@@ -108,7 +108,7 @@ def create_table(c):
 if __name__ == '__main__':
     os.system('clear')
     q = input('what is the name of this dataset?')
-    con = lite.connect('/db/' + q + '.db')
+    con = lite.connect(q + '.db')
 
     cur = con.cursor()
     cur.execute("SELECT count(*) FROM sqlite_master WHERE type = 'table';")
