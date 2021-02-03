@@ -2,14 +2,15 @@
  Practice Russian verbs with the help of wiktionary
 
 ## Installation
- ```cd /your/path/ruverbs
-    python3 setup.py
+ ```
+cd /your/path/ruverbs
+python3 setup.py
 
-    # to start adding verbs to a verb list:
-    python3 add-verbs.py
+# to start adding verbs to a verb list:
+python3 add-verbs.py
 
-    # to start practicing verbs:
-    python3 practice.py
+# to start practicing verbs:
+python3 practice.py
 ```
 
 ## Usage
