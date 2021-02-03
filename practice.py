@@ -5,7 +5,7 @@ import random
 
 def choose_file():
     os.system('clear')
-    dir = os.listdir('./')
+    dir = os.listdir('./db/')
     files = []
     for els in dir:
         if els[-3:] == '.db':
