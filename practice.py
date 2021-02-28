@@ -58,7 +58,7 @@ def rand_verb(c, pr):
     return p[rf], row[enru], row[3]
 
 def removeaccents(a):
-    accentletters = {'а́' : 'а', 'у́' : 'у', 'о́' : 'о', 'е́' : 'е', 'и́' : 'и'}
+    accentletters = {'а́' : 'а', 'у́' : 'у', 'о́' : 'о', 'е́' : 'е', 'и́' : 'и', 'ы́' : 'ы', 'ю́' : 'ю', 'я́' : 'я'}
     for x, y in accentletters.items():
         a = a.replace(x, y)
     return a
